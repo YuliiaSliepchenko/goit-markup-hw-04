@@ -365,7 +365,10 @@ button {
   padding: 30px 10px 0px;
 
 }
-
+.icon{
+  width: 20px;
+  height: 20px;
+}
 .socials{
   display: flex;
   align-items: center;
