@@ -377,6 +377,15 @@ button {
   margin-bottom: 30px;
   justify-content: center;
 }
+.socials-footer{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 30px;
+  justify-content: center;
+  margin-bottom: 100px;
+}
 
 .social-item-link{
   display: flex;
