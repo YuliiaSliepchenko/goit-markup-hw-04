@@ -114,6 +114,14 @@ body {
 .adress-head .item:last-child {
   margin-right: 0;
 }
+.mail{
+  display: flex;
+  align-items: center;
+}
+.phone{
+  display: flex;
+  align-items: center;}
+
 .link{
 font-weight: 500;
 font-size: 14px;
@@ -214,7 +222,35 @@ color: var(--primary-text-color);
   text-transform: uppercase;
   color: var(--primary-white-color);
 }
+/* help */
+.conteiner .clients-item {
+  display: flex;
+  gap: 30px;
+  width: 100%;
+  padding: 94px 0;
+  justify-content: space-between;}
 
+.icon-advantage{
+display:block;
+  align-items: center;
+  justify-content: center;
+  width: 270px;
+  height: 120px;
+  background-color:var(--primary-white-color);
+  margin-bottom: 30px;
+}
+.icon-clients{
+  display:block;
+  align-items: center;
+  justify-content: center;
+  width: 170px;
+  height: 92px;
+  background-color:var(--primary-white-color);
+  margin-bottom: 30px;
+  border: 1px solid #AFB1B8;
+ border-radius: 4px;
+
+}
 /* button */
 .button {
   color: var(--primary-text-color);
@@ -261,7 +297,10 @@ display: flex;
 justify-content: center;
 gap: 8px;
 margin-bottom: 50px;
-}
+color: var(--primary-text-color);
+
+} 
+
 .filter-btn{
   padding: 6px 22px;
   border-radius: 4px;
@@ -276,18 +315,6 @@ margin-bottom: 50px;
 }
 button {
   font-family: inherit;
-}
-.button-secondary .link.button-secondary{
-  display: flex;
-  justify-content: center;
-  gap: 8px;
-  margin-bottom: 50px;
-  color: var(--primary-text-color);
-
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
 }
 
 .action-photo .list {
@@ -383,7 +410,7 @@ button {
   flex-wrap: wrap;
   gap: 10px;
   justify-content: center;
-  margin-bottom: 100px;
+  
 }
 
 .social-item-link{
@@ -399,6 +426,15 @@ button {
 fill:var(--accent-color);
 color:var(--primary-white-color);
 }
+.clients-item-link{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 170px;
+  height: 92px;
+  background-color:var(--primary-white-color);
+}
+.clients-item
 
 .action-photo.section {
   padding-top: 0px;
@@ -445,6 +481,11 @@ color:var(--primary-white-color);
     display: flex;
     justify-content: center;
   }
+  .button-secondary .items{
+  border-color: transparent;
+    box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%), 0px 2px 1px rgb(0 0 0 / 20%);
+    border-radius: 0px 0px 4px 4px;
+}
   
   /* main-page */
   
