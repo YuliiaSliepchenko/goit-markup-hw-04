@@ -673,6 +673,15 @@ color:var(--primary-white-color);
   .footer-nave .link:focus {
     color: var(--accent-color);
   }
+  .title-footer{
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.1428;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color:var(--primary-white-color);
+  }
   
   /* main background white:    #F5F5F5 */
   /* second text white         #FFFFFF */
