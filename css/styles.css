@@ -360,6 +360,35 @@ button {
   padding-top: 94px;
   padding-bottom: 94px;
 }
+
+.our-descr{
+  padding: 30px 10px 0px;
+
+}
+
+.socials{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 30px;
+  justify-content: center;
+}
+
+.social-item-link{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color:var(--primary-white-color);
+}
+.social-item-link:hover{
+fill:var(--accent-color);
+color:var(--primary-white-color);
+}
+
 .action-photo.section {
   padding-top: 0px;
   padding-bottom: 94px;
