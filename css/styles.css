@@ -432,9 +432,19 @@ button {
   
 }
 .footer-social{
+  display: block;
+  justify-content: flex-start;
+  gap: 70px;
+
+}
+.footer-icons-social{
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 20px;
+
 }
 .footer-items{
   display: flex;
@@ -704,7 +714,7 @@ background-color:var(--accent-color);
     background-color: var(--bgr-darck-color);
   }
   .footer .conteiner {
-    display: block;
+    display: flex;
     padding-bottom: 60px;
     padding-top: 60px;
   }
