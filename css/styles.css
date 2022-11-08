@@ -234,14 +234,14 @@ color: var(--primary-text-color);
   justify-content: space-between;}
 
 .icon-advantage{
-display:block;
+ display:block;
   align-items: center;
   justify-content: center;
   width: 270px;
   height: 120px;
-  background-color:var(--primary-white-color);
+  /* background-color:var(--icon-color); */
   margin-bottom: 30px;
-}
+  fill: currentColor;}
 .icon-clients{
   display:block;
   align-items: center;
@@ -431,6 +431,16 @@ button {
   justify-content: center;
   
 }
+.footer-social{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer-items{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+   gap: 70px;}
 
 .social-item-link{
   display: flex;
@@ -439,10 +449,10 @@ button {
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  background-color:var(--primary-white-color);
+  background: rgba(255, 255, 255, 0.1);
+fill:var(--primary-white-color);
 }
 .social-item-link:hover{
-fill:var(--primary-white-color);
 background-color:var(--accent-color);
 
 }
