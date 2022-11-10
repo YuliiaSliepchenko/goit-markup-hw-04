@@ -253,16 +253,8 @@ color: var(--primary-text-color);
   fill: currentColor;}
 
 .icon-clients{
-  display:block;
-  align-items: center;
-  justify-content: center;
-  width: 170px;
-  height: 92px;
-  background-color:var(--primary-white-color);
-  margin-bottom: 30px;
-  border: 1px solid #AFB1B8;
- border-radius: 4px;
-
+ fill: var(--icon-color);
+ 
 }
 /* button */
 .button {
@@ -495,14 +487,16 @@ fill: var(--primary-white-color);
 
 
 .clients-item-link
-{display:block;
+{display:flex;
   align-items: center;
   justify-content: center;
-  border: 120px 270px;
-  /* background: var(--bgr-grey-color); */
+  border:1px solid var(--icon-color);
   border-radius: 4px;
   margin-bottom: 30px;
- border-color: currentColor;}
+  width: 170px;
+  height: 92px;
+ 
+}
 
 
 
