@@ -490,8 +490,9 @@ fill: var(--primary-white-color);
   height: 92px;
   fill:var(--icon-color);
 }
-.clients-item-link.link:hover{
-  color: var(--bgr-darck-color);
+.clients-item-link:hover
+.clients-item-link:hover{
+  fill: var(--accent-color);
 }
 
 .action-photo.section {
