@@ -497,7 +497,7 @@ fill: var(--primary-white-color);
 
 .clients-item-link:hover,
 .clients-item-link:focus{
- background-color:var(--icon-color)
+ background-color:var(--accent-color);
 }
 
 .action-photo.section {
