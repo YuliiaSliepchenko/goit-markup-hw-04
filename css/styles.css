@@ -582,7 +582,11 @@ button {
   line-height: 1.17;
   text-align: center;
 }
-.client-title.conteiner{
+.clien-conteiner{
+  text-align: center;
+ 
+}
+.client-title .clien-conteiner{
   margin-bottom: 50px;
   color: var(--primary-text-color);
   font-weight: 700;
