@@ -125,6 +125,13 @@ body {
   display: flex;
   align-items: center;
 }
+/* .mail::before{
+  content: "";
+  color: var(--icon-color);
+}
+.mail:hover::before{
+  color: currentColor;
+} */
 .phone{
   display: flex;
   align-items: center;}
@@ -483,7 +490,9 @@ fill: var(--primary-white-color);
   height: 92px;
   fill:var(--icon-color);
 }
-.clients-item
+.clients-item-link.link:hover{
+  color: var(--bgr-darck-color);
+}
 
 .action-photo.section {
   padding-top: 0px;
