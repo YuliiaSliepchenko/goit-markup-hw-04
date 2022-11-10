@@ -497,8 +497,10 @@ fill: var(--primary-white-color);
 
 
 .clients-item-link .icon-clients:hover,
-.clients-item-link .icon-clients:focus{
+.clients-item-link .icon-clients:focus
+{
  fill:var(--accent-color);
+border-color: var(--accent-color);
 }
 
 .action-photo.section {
