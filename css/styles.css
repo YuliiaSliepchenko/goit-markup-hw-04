@@ -183,10 +183,11 @@ color: var(--primary-text-color);
 }
 
 .adress-head .link {
-  display: block;
+  display: flex;
   padding-top: 32px;
   padding-bottom: 32px;
   color: var(--secondary-text-color);
+  gap: 10px;
 
   font-weight: 500;
   font-size: 14px;
@@ -416,10 +417,7 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-.adress-head-link:hover,
-.adress-head-link:focus{
-color: var(--accent-color);
+   margin-left: 10px;
 }
 
 .adress-head-link:hover .icon-adress-link,
@@ -494,15 +492,14 @@ fill: var(--primary-white-color);
   border:1px solid var(--icon-color);
   border-radius: 4px;
   margin-bottom: 30px;
-  width: 170px;
-  height: 92px;
- 
+   width: 170px;
+  height: 92px; 
 }
 
 
 
-.clients-item-link:hover,
-.clients-item-link:focus{
+.clients-item-link .icon-clients:hover,
+.clients-item-link .icon-clients:focus{
  fill:var(--accent-color);
 }
 
