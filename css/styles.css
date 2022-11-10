@@ -107,6 +107,10 @@ body {
 .site-nave .item:last-child {
   margin-right: 0;
 }
+.feature-item-link:last-child{
+  margin-right: 0;
+
+}
 .adress-head {
   display: flex;
   align-items: center;
@@ -239,8 +243,10 @@ color: var(--primary-text-color);
   justify-content: center;
   width: 270px;
   height: 120px;
-  /* background-color:var(--icon-color); */
+  background: var(--bgr-grey-color);
+  border-radius: 4px;
   margin-bottom: 30px;
+  padding: 25px 100px;
   fill: currentColor;}
 .icon-clients{
   display:block;
@@ -462,10 +468,11 @@ button {
   height: 44px;
   border-radius: 50%;
   background: rgba(255, 255, 255, 0.1);
-fill:var(--primary-white-color);
+fill:var(--icon-color); 
 }
 .social-item-link:hover{
 background-color:var(--accent-color);
+fill: var(--primary-white-color);
 
 }
 .clients-item-link{
@@ -541,7 +548,7 @@ background-color:var(--accent-color);
   
   .conteiner .feature-list {
     display: flex;
-    gap: 30px;
+    gap: 15px;
     width: 100%;
     margin-top: 66.41px;
   }
