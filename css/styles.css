@@ -124,7 +124,11 @@ body {
 .mail{
   display: flex;
   align-items: center;
+  
 }
+/* .mail:hover::before {
+  color:var(--accent-color);
+} */
 .phone{
   display: flex;
   align-items: center;}
@@ -347,6 +351,7 @@ button {
 .our-team {
   background-color: var(--bgr-grey-color);
   padding: 94px;
+
   
   
 }
