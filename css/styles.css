@@ -92,8 +92,7 @@ body {
 .header-wraper {
   justify-content: space-between;
   display: flex;
-  border: 1px solid #ececec;
-  border:  1px solid #ECECEC;
+  border-bottom: 1px solid #ececec;
   margin-bottom: 100px;
 }
 .site-nave {
@@ -124,13 +123,10 @@ body {
 .mail{
   display: flex;
   align-items: center;
+  
 }
-/* .mail::before{
-  content: "";
-  color: var(--icon-color);
-}
-.mail:hover::before{
-  color: currentColor;
+/* .mail:hover::before {
+  color:var(--accent-color);
 } */
 .phone{
   display: flex;
@@ -255,17 +251,10 @@ color: var(--primary-text-color);
   margin-bottom: 30px;
   padding: 25px 100px;
   fill: currentColor;}
-.icon-clients{
-  display:block;
-  align-items: center;
-  justify-content: center;
-  width: 170px;
-  height: 92px;
-  background-color:var(--primary-white-color);
-  margin-bottom: 30px;
-  border: 1px solid #AFB1B8;
- border-radius: 4px;
 
+.icon-clients{
+ fill: var(--icon-color);
+ 
 }
 /* button */
 .button {
@@ -355,6 +344,7 @@ button {
 .our-team {
   background-color: var(--bgr-grey-color);
   padding: 94px;
+
   
   
 }
@@ -411,11 +401,16 @@ button {
   padding: 30px 10px 0px;
 
 }
-.icon-adress{
+.icon-adress-link{
   fill: var(--icon-color);
   width: 20px;
   height: 20px;
 }
+.icon-adress-link:hover,
+.icon-adress-link:focus{
+  color: var(--accent-color);
+  }
+
 .adress-head-link{
   margin-right: 20px;
   display: flex;
@@ -424,7 +419,12 @@ button {
 }
 .adress-head-link:hover,
 .adress-head-link:focus{
-  fill: var(--accent-color);
+color: var(--accent-color);
+}
+
+.adress-head-link:hover .icon-adress-link,
+.adress-head-link:focus .icon-adress-link{
+fill: var(--accent-color);
 }
 .icon{
   display: flex;
@@ -475,25 +475,35 @@ button {
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  background: rgba(255, 255, 255, 0.1);
+ 
 fill:var(--icon-color); 
 }
-.social-item-link:hover{
+.social-item-link:hover,
+.social-item-link:focus
+{
 background-color:var(--accent-color);
 fill: var(--primary-white-color);
 
 }
-.clients-item-link{
-  display: flex;
+
+
+.clients-item-link
+{display:flex;
   align-items: center;
   justify-content: center;
+  border:1px solid var(--icon-color);
+  border-radius: 4px;
+  margin-bottom: 30px;
   width: 170px;
   height: 92px;
-  fill:var(--icon-color);
+ 
 }
-.clients-item-link:hover
-.clients-item-link:hover{
-  fill: var(--accent-color);
+
+
+
+.clients-item-link:hover,
+.clients-item-link:focus{
+ fill:var(--accent-color);
 }
 
 .action-photo.section {
