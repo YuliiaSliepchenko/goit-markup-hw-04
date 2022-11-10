@@ -251,6 +251,7 @@ color: var(--primary-text-color);
   margin-bottom: 30px;
   padding: 25px 100px;
   fill: currentColor;}
+
 .icon-clients{
   display:block;
   align-items: center;
@@ -425,7 +426,12 @@ button {
 }
 .adress-head-link:hover,
 .adress-head-link:focus{
-  fill: var(--accent-color);
+color: var(--accent-color);
+}
+
+.adress-head-link:hover .icon-adress-link,
+.adress-head-link:focus .icon-adress-link{
+fill: var(--accent-color);
 }
 .icon{
   display: flex;
@@ -487,17 +493,22 @@ fill: var(--primary-white-color);
 
 }
 
-.clients-item{
-  display: flex;
+
+.clients-item-link
+{display:block;
   align-items: center;
   justify-content: center;
-  width: 170px;
-  height: 92px;
-}
+  border: 120px 270px;
+  /* background: var(--bgr-grey-color); */
+  border-radius: 4px;
+  margin-bottom: 30px;
+ border-color: currentColor;}
+
+
 
 .clients-item-link:hover,
 .clients-item-link:focus{
- background-color:var(--accent-color);
+ fill:var(--accent-color);
 }
 
 .action-photo.section {
