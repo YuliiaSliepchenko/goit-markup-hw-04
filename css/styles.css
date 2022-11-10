@@ -41,9 +41,9 @@ ul {
 body {
   background-color: var(--primary-white-color);
   color: var(--primary-text-color);
-
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
+  
 }
 
 .img{
@@ -338,6 +338,7 @@ button {
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
+  text-decoration: none;
 }
 
 .our-team {
