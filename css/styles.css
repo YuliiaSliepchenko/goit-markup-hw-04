@@ -253,10 +253,6 @@ color: var(--primary-text-color);
   padding: 25px 100px;
   fill: currentColor;}
 
-.icon-clients{
- fill: var(--icon-color);
- 
-}
 /* button */
 .button {
   color: var(--primary-text-color);
@@ -483,7 +479,9 @@ background-color:var(--accent-color);
 fill: var(--primary-white-color);
 
 }
-
+.icon-clients{
+  fill: var(--icon-color);
+}
 
 .clients-item-link
 {display:flex;
