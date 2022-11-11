@@ -324,7 +324,6 @@ button {
 
 .our-team {
   background-color: var(--bgr-grey-color);
-  padding: 94px;
 }
 
 .our-team .items {
@@ -609,7 +608,7 @@ button {
 
 .our-team {
   background-color: var(--bgr-grey-color);
-  padding: 94px;
+
 }
 
 .our-team .items {
