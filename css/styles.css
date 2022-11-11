@@ -781,8 +781,6 @@ button {
   color: var(--accent-color);
 }
 .title-footer {
-  font-family: "Roboto";
-  font-weight: 700;
   font-size: 14px;
   line-height: 1.1428;
   letter-spacing: 0.03em;
