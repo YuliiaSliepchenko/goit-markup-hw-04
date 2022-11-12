@@ -378,7 +378,7 @@ button {
   padding: 30px 10px 0px;
 }
 .icon-adress-link {
-  fill: var(--icon-color);
+  fill: var(--secondary-text-color);
   width: 20px;
   height: 20px;
 }
