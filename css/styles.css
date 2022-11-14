@@ -216,12 +216,12 @@ header{ border-bottom: 1px solid #ececec;}
 /* HERO */
 .hero {
   padding: 94px 0;
-  background-color: var(--bgr-darck-color);
+ background-color: var(--bgr-darck-color); 
   width: 100%;
   height: 100%;
-  background-image: url(../images/Img.jpg),linear-gradient(to top,
+  background-image:linear-gradient(to top,
   var(--start-color),var(--end-color)
-  );
+  ),url(../images/Img.jpg);
   /* background-image:linear-gradient(to top,
   var(--start-color),var(--end-color)
   ); */
