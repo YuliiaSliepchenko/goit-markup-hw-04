@@ -93,8 +93,8 @@ img {
 .header-wraper {
   justify-content: space-between;
   display: flex;
-  border-bottom: 1px solid #ececec;
 }
+header{ border-bottom: 1px solid #ececec;}
 .site-nave {
   display: flex;
   align-items: center;
@@ -216,7 +216,7 @@ img {
   background-color: var(--bgr-darck-color);
   width: 100%;
   height: 100%;
-  background-image: url(../images/Img.jpg);
+  background-image: url(../images/Img.jpg),url(../images/ImgOverlay.jpg);
   background-repeat: no-repeat;
   max-width: 1600px;
   max-height: 600px;
@@ -472,7 +472,7 @@ button {
   height: 44px;
   border-radius: 50%;
   background: rgba(255, 255, 255, 0.1);
-  fill: var(--icon-color);
+  fill: var(--primary-white-color);
 }
 .social-item-link:hover,
 .social-item-link:focus {
@@ -656,7 +656,7 @@ button {
   line-height: 1.19;
 }
 .our-team .discription {
-  margin-bottom: 30px;
+  margin-bottom: 16px;
   color: var(--secondary-text-color);
 
   font-weight: 400;
